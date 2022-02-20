@@ -17,45 +17,63 @@ body * {
 
 h1 {
     text-align: center;
-    padding-top: 30px;
-    font-size: 20px;
+    margin-bottom: 25px;
+    font-size: 24px;
 }
 
-.events {
-    /*background: linear-gradient(45deg, rgb(170, 250, 246), rgb(147, 250, 143));*/
+/*.events {
+    /*background: linear-gradient(45deg, rgb(170, 250, 246), rgb(147, 250, 143));
     background-color: #F3F7FC;
     border-radius: 15px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
-}
+}*/
 
 h2 {
-    color: #1049A7;
+    color: #EE2F53;
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     padding: 20px;
-    margin: 0;
 }
+
+/*.theme {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    float: right;
+    margin-right: 30px;
+}
+
+.night {
+    width: 20px;
+    height: 20px;
+}*/
 
 .table {
     display: grid;
-    grid-template-columns: repeat(5,0fr);
+    grid-template-columns: repeat(4,0fr);
     grid-template-rows: repeat(2,0fr);
     grid-gap: 1rem;
     justify-content: space-around;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
+    width: 96%;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .cell {
-    width: 170px;
-    height: 200px;
-    margin: 15px;
+    width: 280px;
+    height: 310px;
+    margin: 10px;
     border-radius: 15px;
 }
 
 .bigcell {
-    width: 170px;
-    height: 170px;
+    width: 280px;
+    height: 280px;
     position: absolute;
     margin: 0 auto;
     padding: 0;
@@ -66,54 +84,53 @@ h2 {
     width: 53px;
     height: 60px;
     position: relative;
-    border-radius: 15px;
-    top: -81px;
-    left: 117px;
+    border-radius: 20px;
+    top: -85px;
+    left: 227px;
     cursor: pointer;
 }
 
 .corner {
     position: relative;
-    width: 170px;
-    height: 170px;
+    width: 280px;
+    height: 280px;
     border-radius: 15px;
     /*z-index: 2;*/
 }
 
 .black_corner {
     position: relative;
-    width: 170px;
-    height: 170px;
-    border-radius: 15px;
+    width: 280px;
+    height: 280px;
 }
 
 .date {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 20px;
     margin: 0;
     position: relative;
-    top: -32px;
-    left: 12px;
+    top: -44px;
+    left: 16px;
 }
 
 .poster {
-    font-size: 12px;
+    font-size: 16px;
     margin: 0;
     padding-top: 7px;
     color: #000000;
     padding-left: 5px;
 }
 
-.pagedown {
+/*.pagedown {
     margin-top: 50px;
     margin-bottom: 80px;
 }
 
 .events2 {
-    /*background: linear-gradient(45deg, rgba(179, 113, 199, 0.3), rgb(245, 161, 203));*/
+    background: linear-gradient(45deg, rgba(179, 113, 199, 0.3), rgb(245, 161, 203));
     background-color: #F3F7FC;
     border-radius: 15px;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 }
 
@@ -124,4 +141,4 @@ h2 {
     grid-gap: 1rem;
     justify-content: space-around;
     padding: 50px 0;
-}
+}*/
