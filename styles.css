@@ -12,44 +12,27 @@ body * {
 }
 
 .page {
-    margin-top: 20px;
+    margin-top: 60px;
+}
+
+.title {
+    width: 85%;
+    margin: 0 auto;
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 24px;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
 }
-
-/*.events {
-    /*background: linear-gradient(45deg, rgb(170, 250, 246), rgb(147, 250, 143));
-    background-color: #F3F7FC;
-    border-radius: 15px;
-    width: 95%;
-    margin: 0 auto;
-}*/
 
 h2 {
     color: #EE2F53;
-    text-align: center;
-    font-size: 22px;
-    padding: 20px;
+    text-align: left;
+    font-size: 26px;
+    font-weight: lighter;
 }
-
-/*.theme {
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-    background: none;
-    border: 0;
-    float: right;
-    margin-right: 30px;
-}
-
-.night {
-    width: 20px;
-    height: 20px;
-}*/
 
 .table {
     display: grid;
@@ -57,7 +40,6 @@ h2 {
     grid-template-rows: repeat(2,0fr);
     grid-gap: 1rem;
     justify-content: space-around;
-    /*padding-bottom: 50px;*/
     width: 96%;
     margin: 0 auto;
     padding-left: 8px;
@@ -68,7 +50,7 @@ h2 {
     width: 280px;
     height: 310px;
     margin: 10px;
-    border-radius: 15px;
+    border-radius: 27px;
 }
 
 .bigcell {
@@ -77,16 +59,16 @@ h2 {
     position: absolute;
     margin: 0 auto;
     padding: 0;
-    border-radius: 15px;
+    border-radius: 27px;
 }
 
 .pin {
-    width: 53px;
-    height: 60px;
+    width: 55px;
+    height: 62px;
     position: relative;
-    border-radius: 20px;
-    top: -85px;
-    left: 227px;
+    border-radius: 23px;
+    top: -87px;
+    left: 225px;
     cursor: pointer;
 }
 
@@ -95,22 +77,22 @@ h2 {
     width: 280px;
     height: 280px;
     border-radius: 15px;
-    /*z-index: 2;*/
 }
 
 .black_corner {
     position: relative;
     width: 280px;
     height: 280px;
+    top: 3px;
 }
 
 .date {
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0;
     position: relative;
-    top: -44px;
-    left: 16px;
+    top: -45px;
+    left: 19px;
 }
 
 .poster {
