@@ -63,12 +63,12 @@ h2 {
 }
 
 .pin {
-    width: 55px;
+    width: 56px;
     height: 62px;
     position: relative;
     border-radius: 23px;
-    top: -87px;
-    left: 225px;
+    top: -80px;
+    left: 224px;
     cursor: pointer;
 }
 
@@ -81,9 +81,9 @@ h2 {
 
 .black_corner {
     position: relative;
-    width: 275px;
-    height: 275px;
-    top: 6px;
+    width: 270px;
+    height: 270px;
+    top: 11px;
 }
 
 .date {
@@ -91,8 +91,8 @@ h2 {
     font-size: 22px;
     margin: 0;
     position: relative;
-    top: -45px;
-    left: 19px;
+    top: -42px;
+    left: 18px;
 }
 
 .poster {
