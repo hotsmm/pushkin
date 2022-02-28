@@ -28,32 +28,17 @@
     }
     
     .black_corner {
-        width: 285px;
-        height: 285px;
+        width: 282px;
+        height: 282px;
     }
 
     .date {
-        top: -38px;
+        top: -35px;
         left: 16px;
     }
 
     .pin {
         left: 244px;
-        top: -74px;
+        top: -72px;
     } 
-    
-    /*.poster {
-        margin: 0;
-        padding-top: 7px;
-        padding-left: 3px;
-        text-align: center;
-        font-size: 12px;
-    }*/
-
-    /*.tablebottom {
-        grid-template-columns: repeat(2,0fr);
-        grid-template-rows: repeat(5,0fr);
-        justify-content: center;
-        align-items: center;
-    }*/
 }    
