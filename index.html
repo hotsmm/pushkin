@@ -1,191 +1,126 @@
-<!DOCTYPE html>
-<html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="./styles.css">
-        <link rel="stylesheet" @media="(max-width: 550px) and (min-width:320px)" href="./mobile.css">
-        <link rel="stylesheet" @media="(max-width: 1024px) and (min-width:550px)" href="./tablet.css">
-        <title>Пушкинская карта</title>
-    </head>
-    <body>
-        <div class="page">
-            <div class="title">
-                <h2>Рекомендации для Вас</h2>
-                <h1>Ближайший топ событий</h1>
-            </div>
-                <div class="table">
-                    <div class="cell">
-                        <img class="bigcell" src="./images/1.png" alt="">
-                        <div class="corner">
-                        <img class="black_corner" src="./images/corner.svg" alt="">
-                        <p class="date">20.02</p>
-                        <img class="pin" src="./images/cinema.svg" alt="">
-                        </div>
-                        <p class="poster">"Три богатыря и конь на троне"</p>
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/2.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">21.02</p>
-                            <img class="pin" src="./images/theatre.svg" alt="">
-                        </div> 
-                        <p class="poster">"Горе от ума"</p>   
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/3.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">22.02</p>
-                            <img class="pin" src="./images/concert.svg" alt="">
-                        </div> 
-                        <p class="poster">"Государи Российские. Павел I и Александр I"</p>   
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/4.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">23.02</p>
-                            <img class="pin" src="./images/zoo.svg" alt="">
-                        </div>
-                        <p class="poster">Океанариум "Крокус сити"</p>    
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/5.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">24.02</p>
-                            <img class="pin" src="./images/exhibit.svg" alt="">
-                        </div>  
-                        <p class="poster">"Экспозиции главного музейного комплекса Эрмитажа"</p>  
-                    </div> 
-                    <div class="cell">
-                        <img class="bigcell" src="./images/6.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">25.02</p>
-                            <img class="pin" src="./images/theatre.svg" alt="">
-                        </div> 
-                        <p class="poster">Опера "Сон в летнюю ночь"</p>   
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/1.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">26.02</p>
-                            <img class="pin" src="./images/online.svg" alt="">
-                        </div> 
-                        <p class="poster">"Три богатыря и конь на троне"</p>   
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/2.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.svg" alt="">
-                            <p class="date">27.02</p>
-                            <img class="pin" src="./images/theatre.svg" alt="">
-                        </div>  
-                        <p class="poster">"Горе от ума"</p>     
-                    </div>
-                </div>
-        </div>
-        <!-- <div class="pagedown">   
-           <div class="events2"> 
-                <div class="tablebottom">
-                    <div class="cell">
-                        <img class="bigcell" src="./images/5.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">02.03</p>
-                            <img class="pin" src="./images/exhibit.svg" alt=""> 
-                        </div>  
-                        <p class="poster">"Экспозиции главного музейного комплекса Эрмитажа"</p>                       
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/6.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">03.03</p>
-                            <img class="pin" src="./images/cinema.svg" alt="">
-                        </div> 
-                        <p class="poster">Опера "Сон в летнюю ночь"</p>    
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/1.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">04.03</p>
-                            <img class="pin" src="./images/online.svg" alt="">
-                        </div> 
-                        <p class="poster">"Три богатыря и конь на троне"</p>    
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/2.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">05.03</p>
-                            <img class="pin" src="./images/theatre.svg" alt="">
-                        </div>
-                        <p class="poster">"Горе от ума"</p>        
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/3.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">06.03</p>
-                            <img class="pin" src="./images/concert.svg" alt="">
-                        </div>
-                        <p class="poster">"Государи Российские. Павел I и Александр I"</p>         
-                    </div> 
-                    <div class="cell">
-                        <img class="bigcell" src="./images/4.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">07.03</p>
-                            <img class="pin" src="./images/zoo.svg" alt="">
-                        </div>
-                        <p class="poster">Океанариум "Крокус сити"</p>        
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/5.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">08.03</p>
-                            <img class="pin" src="./images/exhibit.svg" alt="">
-                        </div> 
-                        <p class="poster">"Экспозиции главного музейного комплекса Эрмитажа"</p>    
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/6.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">09.03</p>
-                            <img class="pin" src="./images/online.svg" alt="">
-                        </div> 
-                        <p class="poster">Опера "Сон в летнюю ночь"</p>    
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/1.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">10.03</p>
-                            <img class="pin" src="./images/cinema.svg" alt="">
-                        </div>
-                        <p class="poster">"Три богатыря и конь на троне"</p>     
-                    </div>
-                    <div class="cell">
-                        <img class="bigcell" src="./images/2.png" alt="">
-                        <div class="corner">
-                            <img class="black_corner" src="./images/corner.png" alt="">
-                            <p class="date">11.03</p>
-                            <img class="pin" src="./images/theatre.svg" alt="">
-                        </div> 
-                        <p class="poster">"Горе от ума"</p>    
-                    </div>   
-                </div>
-           </div> 
-        </div>   -->
-    </body>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D1D;
+    font-style: normal;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.page {
+    margin-top: 60px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #EE2F53;
+    text-align: left;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    grid-template-rows: repeat(2,0fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    width: 96%;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.cell {
+    width: 280px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 27px;
+}
+
+.bigcell {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 27px;
+}
+
+.pin {
+    width: 56px;
+    height: 62px;
+    position: relative;
+    border-radius: 23px;
+    top: -71px;
+    left: 224px;
+    cursor: pointer;
+}
+
+.corner {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.black_corner {
+    position: relative;
+    width: 262px;
+    height: 262px;
+    top: 19px;
+}
+
+.date {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    top: -31px;
+    left: 18px;
+}
+
+.poster {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 7px;
+    color: #000000;
+    padding-left: 5px;
+}
+
+/*.pagedown {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.events2 {
+    background: linear-gradient(45deg, rgba(179, 113, 199, 0.3), rgb(245, 161, 203));
+    background-color: #F3F7FC;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.tablebottom {
+    display: grid;
+    grid-template-columns: repeat(5,0fr);
+    grid-template-rows: repeat(2,0fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    padding: 50px 0;
+}*/
