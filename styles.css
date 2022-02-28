@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1D1D1D;
+    font-style: normal;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.page {
+    margin-top: 60px;
+}
+
+.title {
+    margin: 0 auto;
+    width: 1230px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #EE2F53;
+    text-align: left;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    grid-template-rows: repeat(2,0fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    width: 96%;
+    margin: 0 auto;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.cell {
+    width: 280px;
+    height: 310px;
+    margin: 10px;
+    border-radius: 27px;
+}
+
+.bigcell {
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 27px;
+}
+
+.pin {
+    width: 56px;
+    height: 62px;
+    position: relative;
+    border-radius: 23px;
+    top: -71px;
+    left: 224px;
+    cursor: pointer;
+}
+
+.corner {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.black_corner {
+    position: relative;
+    width: 262px;
+    height: 262px;
+    top: 19px;
+}
+
+.date {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin: 0;
+    position: relative;
+    top: -31px;
+    left: 18px;
+}
+
+.poster {
+    font-size: 16px;
+    margin: 0;
+    padding-top: 7px;
+    color: #000000;
+    padding-left: 5px;
+}
+
+/*.pagedown {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.events2 {
+    background: linear-gradient(45deg, rgba(179, 113, 199, 0.3), rgb(245, 161, 203));
+    background-color: #F3F7FC;
+    border-radius: 15px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.tablebottom {
+    display: grid;
+    grid-template-columns: repeat(5,0fr);
+    grid-template-rows: repeat(2,0fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    padding: 50px 0;
+}*/
