@@ -16,8 +16,8 @@ body * {
 }
 
 .title {
-    width: 85%;
     margin: 0 auto;
+    width: 1230px;
 }
 
 h1 {
@@ -91,7 +91,7 @@ h2 {
     font-size: 22px;
     margin: 0;
     position: relative;
-    top: -36px;
+    top: -34px;
     left: 18px;
 }
 
