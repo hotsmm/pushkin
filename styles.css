@@ -67,7 +67,7 @@ h2 {
     height: 62px;
     position: relative;
     border-radius: 23px;
-    top: -74px;
+    top: -71px;
     left: 224px;
     cursor: pointer;
 }
@@ -81,9 +81,9 @@ h2 {
 
 .black_corner {
     position: relative;
-    width: 265px;
-    height: 265px;
-    top: 16px;
+    width: 262px;
+    height: 262px;
+    top: 19px;
 }
 
 .date {
@@ -91,7 +91,7 @@ h2 {
     font-size: 22px;
     margin: 0;
     position: relative;
-    top: -34px;
+    top: -31px;
     left: 18px;
 }
 
