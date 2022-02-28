@@ -7,11 +7,15 @@
         align-items: center;
     }
 
+    .title {
+        width: 285px;
+    }
+
     h1 {
-        text-align: center;
+        text-align: left;
     }
 
     h2 {
-        text-align: center;
+        text-align: left;
     }
 }
