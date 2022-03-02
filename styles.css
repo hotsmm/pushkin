@@ -13,6 +13,7 @@ body * {
 
 .page {
     margin-top: 60px;
+    margin-bottom: 40px;
 }
 
 .title {
@@ -36,7 +37,7 @@ h2 {
 
 .table {
     display: grid;
-    grid-template-columns: repeat(4,0fr);
+    grid-template-columns: repeat(5,0fr);
     grid-template-rows: repeat(2,0fr);
     grid-gap: 1rem;
     justify-content: space-around;
@@ -47,52 +48,63 @@ h2 {
 }
 
 .cell {
-    width: 280px;
-    height: 310px;
+    width: 230px;
+    height: 280px;
     margin: 10px;
-    border-radius: 27px;
+    border-radius: 12px;
 }
 
 .bigcell {
-    width: 280px;
-    height: 280px;
+    width: 230px;
+    height: 200px;
     position: absolute;
     margin: 0 auto;
     padding: 0;
-    border-radius: 27px;
+    border-radius: 12px;
 }
 
 .pin {
-    width: 56px;
-    height: 62px;
+    width: 52px;
+    height: 58px;
     position: relative;
-    border-radius: 23px;
-    top: -71px;
-    left: 224px;
+    border-radius: 12px;
+    top: -81px;
+    left: 178px;
     cursor: pointer;
 }
 
 .corner {
     position: relative;
-    width: 280px;
-    height: 280px;
-    border-radius: 15px;
+    width: 230px;
+    height: 200px;
+    border-radius: 12px;
 }
 
 .black_corner {
     position: relative;
-    width: 262px;
-    height: 262px;
-    top: 19px;
+    width: 198px;
+    height: 198px;
+    top: 3px;
+    border-radius: 12px;
 }
 
 .date {
     color: #FFFFFF;
-    font-size: 22px;
+    font-size: 20px;
     margin: 0;
     position: relative;
-    top: -31px;
-    left: 18px;
+    top: -37px;
+    left: 12px;
+}
+
+.event {
+    font-size: 14px;
+    /*font-weight: lighter;*/
+    text-transform: uppercase;
+    margin: 0;
+    padding-top:10px;
+    color: #000000;
+    padding-left: 5px;
 }
 
 .poster {
@@ -101,6 +113,7 @@ h2 {
     padding-top: 7px;
     color: #000000;
     padding-left: 5px;
+    font-weight: bolder;
 }
 
 /*.pagedown {
