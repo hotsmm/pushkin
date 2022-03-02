@@ -2,7 +2,7 @@
     
     .table {
         grid-template-columns: repeat(1,0fr);
-        grid-template-rows: repeat(8,0fr);
+        grid-template-rows: repeat(10,0fr);
         justify-content: center;
         align-items: center;
     }
@@ -11,11 +11,37 @@
         width: 285px;
     }
 
-    h1 {
-        text-align: left;
+    .cell {
+        width: 280px;
+        height: 330px;
     }
-
-    h2 {
-        text-align: left;
+    
+    .bigcell {
+        width: 280px;
+        height: 250px;
+    }
+    
+    .pin {
+        width: 56px;
+        height: 62px;
+        top: -72px;
+        left: 224px;
+    }
+    
+    .corner {
+        width: 280px;
+        height: 250px;
+    }
+    
+    .black_corner {
+        width: 232px;
+        height: 232px;
+        top: 19px;
+    }
+    
+    .date {
+        font-size: 22px;
+        top: -26px;
+        left: 15px;
     }
 }
