@@ -13,32 +13,33 @@
     
     .cell {
         width: 300px;
-        height: 330px;
+        height: 350px;
         margin: 12px;
     }
 
     .bigcell {
         width: 300px;
-        height: 300px;
+        height: 270px;
     }  
     
     .corner {
         width: 300px;
-        height: 300px;
+        height: 270px;
     }
     
     .black_corner {
-        width: 282px;
-        height: 282px;
+        width: 242px;
+        height: 242px;
+        top: 29px;
     }
 
     .date {
-        top: -35px;
+        top: -20px;
         left: 16px;
     }
 
     .pin {
-        left: 244px;
-        top: -72px;
+        left: 248px;
+        top: -55px;
     } 
 }    
